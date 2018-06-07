@@ -11,23 +11,21 @@ body {
   margin: 100px auto;
   width: 300px;
   height: 300px;
- clip-path: circle(150px at center);
+ /*clip-path: circle(150px at center);*/
 }
 
 .sunWrap {
   position: absolute;
-  left: 30px;
-  top: 30px;
-  width: 20%;
+  left: 20px;
+  top: 10px;
+  width: 25%;
 }
+.sun {width: 100%;}
 
 .cloudWrap {
   position: absolute;
-  right: 40px;
-  top: 50px;
-  width: 20%; 
+  right: 30px;
+  top: 25px;
+  width: 30%; 
 }
-
-.house {
-  width: 100%;
-}
+.cloud {width: 100%;}
