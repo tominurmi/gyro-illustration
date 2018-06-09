@@ -1,29 +1,35 @@
 body {
   background: #CCE9F6;
+  margin: 2rem;
 }
 
 #itrains {
   max-width: 500px;
-  margin: 5rem auto;
+  margin: 0 auto;
 }
 
+.cloud {
+  margin-top: 5rem;
+}
 .cloud img {
   width: 100%;
 }
 
 .rain {
-  width: 100%;
   z-index: 2;
+  width: 100%;
+  text-align: center;
 }
 .rain img {
   margin-top: 45%;
-  margin-left: 30%;
   width: 45%;
 }
+
 .brella {
-  width: 100%;
   z-index: 1;
+  width: 100%;
   text-align: center;
+  margin-bottom: 5rem;
 }
 .brella img {
   margin-top: 80%;
