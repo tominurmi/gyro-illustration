@@ -9,31 +9,14 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 <body>
-	<div id="container" class="container">
-		<div id="scene" class="scene">
-			<div class="sunWrap"><img class="sun" data-depth="1.00" src="images/sun.svg"></div>
-			<div class="cloudWrap"><img class="cloud" data-depth="0.80" src="images/cloud.svg"></div>
-			<img class="house" src="images/illustration.svg">
-		</div>
+	<div id="itrains">
+		<div class="cloud" data-depth="1.00"><img src="images/clouds.svg"></div>
+		<div class="rain" data-depth="1.70"><img src="images/rain.svg"></div>
+		<div class="brella" data-depth="1.10"><img src="images/brella.svg"></div>
 	</div>
-	<script src="./parallax.js"></script>
-
-	<script>
-		var scene = document.getElementById('scene');
-
-		var parallax = new Parallax(scene, {
-	    selector: '.sun',
-	    limitX: 2,
-	    limitY: 1,
-	  	});
-
-		var parallax = new Parallax(scene, {
-	    selector: '.cloud',
-	    limitX: 8,
-	    limitY: 6,
-	    invertX: false,
-	  	});
-	</script>
-
+<script>
+	var scene = document.getElementById('itrains');
+	var parallax = new Parallax(scene);
+</script>
 </body>
 </html>

@@ -1,31 +1,31 @@
 body {
-  background: #fff;
-  color: #333;
-  font-family: monospace;
-  font-size: 18px;
-  margin: 0;
-
+  background: #CCE9F6;
 }
 
-#scene {
-  margin: 100px auto;
-  width: 300px;
-  height: 300px;
- /*clip-path: circle(150px at center);*/
+#itrains {
+  max-width: 500px;
+  margin: 5rem auto;
 }
 
-.sunWrap {
-  position: absolute;
-  left: 20px;
-  top: 10px;
-  width: 25%;
+.cloud img {
+  width: 100%;
 }
-.sun {width: 100%;}
 
-.cloudWrap {
-  position: absolute;
-  right: 30px;
-  top: 25px;
-  width: 30%; 
+.rain {
+  width: 100%;
+  z-index: 2;
 }
-.cloud {width: 100%;}
+.rain img {
+  margin-top: 45%;
+  margin-left: 30%;
+  width: 45%;
+}
+.brella {
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+.brella img {
+  margin-top: 80%;
+  width: 44%;
+}
